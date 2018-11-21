@@ -1,5 +1,8 @@
 /* CSS for CV webpages*/
 
+
+font-family: 'Oswald', sans-serif;
+
 /*------------------Header--------------------*/
 /*Header image*/
 header img{
@@ -271,7 +274,6 @@ body{
 
 /* formats Bio Home buttons*/
 b{
-  display: block;
   color: white;
   float: none;
   text-align: center;
