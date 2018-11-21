@@ -50,8 +50,12 @@ ul
 li
 {float: left;}
 
-li a
-{ display: block;
+a
+{
+
+  background-color: #000040;
+  width: 100px;
+  display: block;
   color: white;
   text-align: center;
   padding: 20px 50px;
