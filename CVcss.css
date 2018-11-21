@@ -274,7 +274,6 @@ body{
 
 /* formats Bio Home buttons*/
 b{
-  display: block;
   color: white;
   float: none;
   text-align: center;
