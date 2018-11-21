@@ -52,7 +52,6 @@ li
 
 a
 {
-
   background-color: #000040;
   width: 100px;
   display: block;
@@ -64,7 +63,7 @@ a
   height: auto;}
 
 /*different background when hovering over a nav bar menu item*/
-li a:hover { background-color: #9999b2;}
+a:hover { background-color: #9999b2;}
 
 /* adds underlines to the title current page you are on in the navbar */
 #active{text-decoration: underline;
