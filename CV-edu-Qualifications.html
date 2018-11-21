@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<!--headder section including title of webpage and link to CSS-->
+   <head>
+     <link rel='stylesheet' href='CVcss.css'>
+     <title> CV Website GSM </title>
+   </head>
+   <!--main body section-->
+  <body>
+    <header>
+      <img src="me.jpg" alt="Profile"><!--header bar image-->
+      <h1>Godfrey Stewart Morewood</h1>
+        <nav class="navbar" id="navbarid"> <!--declaring and id'ing nav bar-->
+          <ul>
+            <li><a href="file:///U:/w3%20Auth/CV/CVRepository/CVHome.html">Home</a></li>
+                <div class="dropdown"> <!--creading a div for dropdown option-->
+                  <li><a class="bropbtn" href="file:///U:/w3%20Auth/CV/CVRepository/CVEducation.html">Education</a></li>
+                    <ul class="dropdown-content"><!--dropdown list-->
+                      <li><a id="active" href="file:///U:/w3%20Auth/CV/CVRepository/CV-edu-Qualifications.html">Qualifications</a></li>
+                    </ul>
+                  </div>
+            <li><a href="file:///U:/w3%20Auth/CV/CVRepository/CVEmployment.html">Employment</a></li>
+                <div class="dropdown"> <!--creading div for dropdown menu-->
+                  <li><a class="bropbtn" href="file:///U:/w3%20Auth/CV/CVRepository/CVBioHome.html">Bio</a></li>
+                      <ul class="dropdown-content"> <!--dropdown menu-->
+                      <li><a href="file:///U:/w3%20Auth/CV/CVRepository/CV-Bio-Hobbies.html">Hobbies</a></li>
+                      <li><a href="file:///U:/w3%20Auth/CV/CVRepository/CV-bio-Strengths.html">Strengths</a></li>
+                      <li><a href="file:///U:/w3%20Auth/CV/CVRepository/CV-Bio-Abilities.html">Abilities</a></li>
+                      <li><a href="file:///U:/w3%20Auth/CV/CVRepository/CV-Bio-Past.html">Past</a></li>
+                      <li><a href="file:///U:/w3%20Auth/CV/CVRepository/CV-bio-Future.html">Future</a></li>
+                      <li><a href="file:///U:/w3%20Auth/CV/CVRepository/CV-Bio-NA.html">Notable Accomplishments</a></li>
+                      </ul>
+                </div>
+            <li><a href="file:///U:/w3%20Auth/CV/CVRepository/CVProj.html">Projects</a></li>
+            <li><a href="file:///U:/w3%20Auth/CV/CVRepository/CVContact.html  ">Contact Me</a></li>
+        </ul>
+      </nav>
+      <!--creating nav class for hamburger icon (reactive webpage)-->
+      <nav class="hamburger">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"> = </a>
+      </nav>
+    </header>
+
+
+
+
+
+
+
+  <!--main body and content of webpage-->
+
+  <main>
+    <section id="s1">   <!--section ID for CSS-->
+      <div class="ContentBox"><!--content box div for CSS-->
+        <h2>Qualifications</h2>   <!--page title-->
+          <table style="width:100%"> <!-- table width-->
+            <tr>
+              <th>Name</th>
+              <th>Level</th>
+              <th>Result</th>
+            </tr>
+            <tr>
+              <td>Philosophy</td>
+              <td>Higher</td>
+              <td>A</td>
+            </tr>
+            <tr>
+              <td>Applied Science (Physics)</td>
+              <td>NVQ Lvl 7</td>
+              <td>A</td>
+            </tr>
+            <tr>
+              <td>Information Systems</td>
+              <td>Int. 2</td>
+              <td>B</td>
+            </tr>
+            <tr>
+              <td>Aviation Studies</td>
+              <td>Btec Diploma</td>
+              <td>Pass</td>
+            </tr>
+          </table>
+       </div>
+    </section>
+  </main>
+
+
+ <!--footer sections-->
+    <footer>
+      <section id="footer1">
+        <div class="ContentBox">
+          <p> Last Updated: 19/11/2018 17:04 PM </p> <!--LHS BOX-->
+        </div>
+      </section>
+      <section id="footer2">
+        <div class="ContentBox">
+        <p>  </p><!--left for option to add at later date-->
+        </div>
+      </section>
+      <section id="footer3">
+        <div class="ContentBox">
+        <p> Current Status: Looking for Work </p><!--RHS BOX-->
+        </div>
+      </section>
+    </footer>
+
+
+ <!--javascript for hamburger-->
+    <script>
+    function myFunction()
+    {
+        var x = document.getElementById("navbarid");
+        if (x.className === "navbar") {x.className += " responsive";}
+        else {x.className = "navbar";}
+    }
+    </script>
+
+
+
+
+
+   </body>
+ </html>
